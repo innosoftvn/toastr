@@ -8,16 +8,18 @@
 
 ## Quick Start
 3 Easy Steps
- 1. Link to toastr.css `<link href="toastr.min.css" rel="stylesheet"/>`
- 2. Link to toastr.js `<script src="toastr.min.js"></script>`
- 3. use toastr to display a toast for info, success, warning, error or pusher
 
+ 1. Link to toastr.min.css `<link href="toastr.min.css" rel="stylesheet"/>`
+ 2. Link to toastr.min.js `<script src="toastr.min.js"></script>`
+ 3. Use toastr to display a toast for info, success, warning, error or pusher.
 
-    toastr.info("message")
-    toastr.success("message")
-    toastr.warning("message")
-    toastr.error("message")
-    toastr.pusher("message")
+For example:
+
+    toastr.info("message");
+    toastr.success("message");
+    toastr.warning("message");
+    toastr.error("message");
+    toastr.pusher("message");
 
 ## Default settings
 
@@ -47,7 +49,7 @@ Set default settings for future toastr.
     });
 
 ## Icons
-Demo using [Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/) icons with toastr
+Demo using [Material Design Iconic Font](http://zavoloklom.github.io/material-design-iconic-font/) icons with toastr.
 
     {
         showIcon: true,
