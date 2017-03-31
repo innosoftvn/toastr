@@ -1,7 +1,9 @@
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/7092420/24218424/e3ffebcc-0f75-11e7-886f-6b3ed1929849.png" alt="logo">
+  <img src="https://cloud.githubusercontent.com/assets/7092420/24548757/6acd1212-1640-11e7-8941-10336f1172fb.png" alt="logo">
 </p>
-
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/7092420/24548760/716a210a-1640-11e7-9df7-764c3de5edd9.png" alt="demo">
+</p>
 
 
 ## Quick Start
@@ -9,6 +11,7 @@
  1. Link to toastr.css `<link href="toastr.min.css" rel="stylesheet"/>`
  2. Link to toastr.js `<script src="toastr.min.js"></script>`
  3. use toastr to display a toast for info, success, warning, error or pusher
+
 
     toastr.info("message")
     toastr.success("message")
